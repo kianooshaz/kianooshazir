@@ -8,7 +8,7 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /
+      pageRef: /
       weight: 10
     - identifier: appointments
       name: "📅 Book Appointment"
