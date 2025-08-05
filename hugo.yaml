@@ -2,3 +2,17 @@ baseURL: https://kianooshaz.ir/
 languageCode: en-us
 title: Kianoosh Ashayerizade
 theme: ["PaperMod"]
+
+# Main menu navigation
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: appointments
+      name: "📅 Book Appointment"
+      url: "https://calendar.app.google/g4zZJq6W273LixpPA"
+      weight: 20
+      params:
+        external: true
