@@ -3,6 +3,8 @@ languageCode: en-us
 title: Kianoosh Ashayerizade
 theme: ["PaperMod"]
 
+params:
+
 # Main menu navigation
 menu:
   main:
