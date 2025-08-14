@@ -7,7 +7,7 @@ trailingSlash: never
 
 menu:
   main:
-    - name: "📅 Schedule an Appointment"
+    - name: "📅 Book an Appointment"
       url: "https://calendar.app.google/YrwAMPmSKtnZhSxt7"
       weight: 100
     - name: "📄 Download Resume"
