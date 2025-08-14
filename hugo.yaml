@@ -15,6 +15,7 @@ menu:
       weight: 200
       params:
         download: true
+        trailingSlash: never
 
 params:
   # dark, light, auto
