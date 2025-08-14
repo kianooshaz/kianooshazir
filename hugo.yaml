@@ -1,9 +1,37 @@
 baseURL: https://kianooshaz.ir/
 languageCode: en-us
-title: My New Hugo Site
+title: KAZ
 
 theme: "PaperModX"
+
+menu:
+  main:
+    - name: "📅 Schedule an Appointment"
+      url: "https://calendar.app.google/YrwAMPmSKtnZhSxt7"
+      weight: 100
+    - name: "📄 Download Resume"
+      url: "cv/resume.pdf"
+      weight: 200
 
 params:
   # dark, light, auto
   defaultTheme: dark 
+
+  profileMode:
+    enabled: true
+    title: Kianoosh Ashayerizade
+    subtitle: Software Engineer
+    imageUrl: "/images/face_portrait.png" 
+    imageTitle: "Kianoosh Ashayerizade" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  socialIcons: # optional
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/kianooshaz/"
+      - name: "github"
+        url: "https://github.com/kianooshaz"
+      - name: "telegram"
+        url: "https://t.me/kianooshaz"
+      - name: "twitter"
+        url: "https://x.com/kianoosh_az"
