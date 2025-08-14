@@ -1,4 +1,0 @@
-{{ $currentNode := . }}
-{{ range .Site.Menus.main }}
-<a href="{{ .URL }}" {{ if $currentNode.IsMenuCurrent .Menu .Name }}class="active" {{ end }}>{{ .Name }}</a>
-{{ end }}
