@@ -3,3 +3,7 @@ languageCode: en-us
 title: My New Hugo Site
 
 theme: "PaperModX"
+
+params:
+  # dark, light, auto
+  defaultTheme: dark 
