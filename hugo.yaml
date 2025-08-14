@@ -13,9 +13,6 @@ menu:
     - name: "📄 Download Resume"
       url: "/downloads/resume.pdf"
       weight: 200
-      params:
-        download: true
-        trailingSlash: never
 
 params:
   # dark, light, auto
