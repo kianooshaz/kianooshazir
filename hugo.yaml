@@ -10,7 +10,7 @@ menu:
       url: "https://calendar.app.google/YrwAMPmSKtnZhSxt7"
       weight: 100
     - name: "📄 Download Resume"
-      url: "cv/resume.pdf"
+      url: "/cv/resume.pdf"
       weight: 200
 
 params:
